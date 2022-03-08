@@ -35,8 +35,8 @@ public class SavingsAccount {
 	 * 
 	 * @param newInterestRate
 	 */
-	public static void getInterestRate(double newInterestRate) {
-		annualInterestRate = newInterestRate;
+	public static void getInterestRate(double rate) {
+		annualInterestRate = rate;
 	}
 
 	/**
@@ -46,7 +46,7 @@ public class SavingsAccount {
 	 * @return
 	 */
 	public static double annualInterestRate(double rate) {
-		double annualInterestRate = rate / 100;
+		annualInterestRate = rate / 100;
 		return annualInterestRate;
 	}
 
